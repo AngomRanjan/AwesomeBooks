@@ -53,13 +53,13 @@ function appendBooklist(book) {
 }
 
 // | Add Click Event Listners to remove Buttons
-const removes = Array.from(document.getElementsByClassName('remove'));
-removes.forEach((remove) => {
-  remove.addEventListener('click', (event) => {
-    removeBooks(remove.id);
-    event.stopPropagation();
-  });
-});
+// const removes = Array.from(document.getElementsByClassName('remove'));
+// removes.forEach((remove) => {
+//   remove.addEventListener('click', (event) => {
+//     removeBooks(remove.id);
+//     event.stopPropagation();
+//   });
+// });
 
 document.getElementById('add').addEventListener('click', (event) => {
   const title = document.getElementById('title').value;
