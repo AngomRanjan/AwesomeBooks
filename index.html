@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Angom's Awesome Books</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <main>
+      <section class="sec-display" id="awesome-books">
+        <h1>Awesome Books</h1>
+        <article class="booklist" id="booklist"></article>
+      </section>
+      <section class="sec-add" id="add-awesome">
+        <form action="submit">
+          <input
+            type="text"
+            name="title"
+            id="title"
+            placeholder="Title"
+            required
+          />
+          <br />
+          <br />
+          <input
+            type="text"
+            name="author"
+            id="author"
+            placeholder="Author"
+            required
+          />
+          <br />
+          <br />
+          <button type="button" class="add" id="add">Add</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="awesome.js" async defer></script>
+  </body>
+</html>
