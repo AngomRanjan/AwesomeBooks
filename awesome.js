@@ -1,4 +1,4 @@
- // || =========== awesome ============ ||
+// || =========== awesome ============ ||
 let arrBooks = JSON.parse(window.localStorage.getItem('arrBooksLocal'));
 if (!arrBooks) {
   arrBooks = [
