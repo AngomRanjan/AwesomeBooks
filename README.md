@@ -13,7 +13,7 @@
 ## Live Demo
 [source code](https://github.com/AngomRanjan/AwesomeBooks.git)
 
-[Live Demo Link](https://angomranjan.github.io/AwesomeBooks.git)
+[Live Demo Link]( https://angomranjan.github.io/AwesomeBooks/)
 
 ## Authors
 
