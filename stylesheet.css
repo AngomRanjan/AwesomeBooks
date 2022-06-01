@@ -60,7 +60,7 @@ nav {
 .container {
   width: 100%;
   margin: 0;
-  padding: 5px;
+  padding: 10px;
   background-color: lightgrey;
 }
 
@@ -149,4 +149,5 @@ footer h3 {
   font-size: 18px;
   margin: 30px;
   border: 2px solid #272a31;
+  padding: 10px;
 }
