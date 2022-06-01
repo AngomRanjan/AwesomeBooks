@@ -23,6 +23,10 @@
 - Twitter: [@RanjanAngom](https://twitter.com/RanjanAngom)
 - LinkedIn: [angom-chittaranjan](https://linkedin.com/in/angom-chittaranjan)
 
+👤 Muhammad Shaheer
+
+- GitHub: [@ShaheerCH](https://github.com/ShaheerCH)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
