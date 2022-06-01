@@ -1,4 +1,4 @@
- // || ==== classes === ||
+// || ==== classes === ||
 
 class ArrBooks {
   constructor() {
