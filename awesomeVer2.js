@@ -1,4 +1,4 @@
-// || ==== classes === ||
+ // || ==== classes === ||
 
 class ArrBooks {
   constructor() {
@@ -128,8 +128,9 @@ document.getElementById('add-book').addEventListener('submit', (event) => {
 
 const form = document.getElementById('add-book');
 
-form.addEventListener('submit', function handleSubmit(event) {
-  event.preventDefault();
+form.addEventListener('submit', handleSubmit);
 
+function handleSubmit(event) {
+  event.preventDefault();
   form.reset();
-});
+}
