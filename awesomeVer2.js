@@ -52,6 +52,21 @@ if (localBooks) {
       title: 'Around The World In 80 Days',
       author: 'Jules Verne',
     },
+    {
+      id: 3,
+      title: 'Great Expectation',
+      author: 'Charles Dickens',
+    },
+    {
+      id: 4,
+      title: 'The Three Musketeers',
+      author: 'Alexander Dumas',
+    },
+    {
+      id: 5,
+      title: 'Robinson Crusoe',
+      author: 'Daniel Defoe',
+    },
   ];
 }
 
@@ -68,7 +83,7 @@ function compileBookArticle(book) {
   By ${book.author}
   </p>
   <button type='button' class='remove' id='id-${book.id}'>Remove</button>
-  <hr>`;
+  `;
   return articleBook;
 }
 
