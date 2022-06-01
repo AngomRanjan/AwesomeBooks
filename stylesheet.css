@@ -17,7 +17,7 @@ nav h3 {
   color: blue;
 }
 
-.clock {
+#clock {
   display: flex;
   justify-content: flex-end;
   margin: 5px 20px;
