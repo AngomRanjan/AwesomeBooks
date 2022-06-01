@@ -17,6 +17,12 @@ nav h3 {
   color: blue;
 }
 
+.clock {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 20px;
+}
+
 .booklist {
   width: 80%;
   border: 2px solid #272a31;
@@ -108,4 +114,39 @@ hr {
 .input-text {
   height: 40px;
   padding: 8px;
+}
+
+#Contact-Us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  gap: 20px;
+  text-align: center;
+  border: 2px solid #272a31;
+}
+
+#Contact-Us h1 {
+  font-size: 30px;
+}
+
+#Contact-Us p {
+  font-size: 18px;
+}
+
+#Contact-Us ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  flex-direction: column;
+}
+
+#Contact-Us li {
+  text-align: left;
+}
+
+footer h3 {
+  font-size: 18px;
+  margin: 30px;
+  border: 2px solid #272a31;
 }
