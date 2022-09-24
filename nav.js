@@ -15,6 +15,8 @@ function onLinkClick(event) {
   });
 }
 
+// Just to check if i still got it
+
 navlinks.forEach((linkEl) => {
   linkEl.addEventListener('click', onLinkClick);
 });
